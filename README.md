@@ -13,18 +13,31 @@ int main(){
 
 do{
         printf("\nMenu de Opcoes:\n");
+        
         printf("0 - Numeros aleatorios na matriz\n");
+        
         printf("1 - Cadastrar elementos na matriz\n");
+        
         printf("2 - Imprimir a matriz\n");
+        
         printf("3 - Somatoria dos elementos da matriz\n");
+        
         printf("4 - Imprimir o maior e menor elemento da matriz\n");
+        
         printf("5 - Contar os numeros pares da diagonal principal\n");
+        
         printf("6 - Contar os numeros impares da diagonal secundaria\n");
+        
         printf("7 - Contar os numeros pares da diagonal secundária\n");
+        
         printf("8 - Somatoria dos elementos das linhas impares\n");
+        
         printf("9 - Sair\n");
+        
         printf("Escolha uma opcao: ");
+        
         scanf("%d", &opcao);
+        
 
     switch (opcao)
     {
